@@ -56,7 +56,7 @@ p {
   display: flex;
   justify-content: flex-end;
   margin-right: 50px;
-  position: relative;
+  position: left;
      bottom: 300px;
 }
 
@@ -161,6 +161,9 @@ footer div ul {
 .sobre_el_vehiculo {
     margin-left: 20%;
     width: 1000px;
+    display: flex;
+    justify-content: center;
+    text-overflow: wrap;
 }
 
 .VyD {
@@ -191,10 +194,11 @@ footer div ul {
       justify-content: center;
     text-decoration: underline;
     margin: 20px;
+    
+    
 }
 .bugatti_videos {
-    width: 1000px;
-    height: 500px;
+    width: 80%;
     border: 20px inset navy;
     margin-left: 23%;
     margin-bottom: 50px;
