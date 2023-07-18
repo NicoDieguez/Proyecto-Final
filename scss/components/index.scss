@@ -1,0 +1,58 @@
+.main_image {
+    width: 100%;
+}
+
+ul img {
+    @extend %img_autos_2;
+}
+
+.img_autos{ 
+    @extend %img_autos;
+}
+
+h2 {
+    @extend %titulo_autos;
+}
+
+p {
+    @extend %texto_autos;
+}
+
+.text_autos {
+    @extend %TyP_texto_autos;
+}
+
+main {
+    background-color: $fondo-1;
+    border-bottom: $borde-inicioyfinal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+//INDEX SOLO
+.index_list{
+    list-style-type: none;
+}
+
+.titulo {
+    display: flex;
+    position: relative;
+       bottom: 750px;
+    justify-content: center;
+    color: rgb(11, 185, 190);
+    font-family: 'Righteous', cursive;
+    font-size: 70px;
+}
+
+.categoria {
+    text-decoration: none;
+    border: 2px solid $texto-1;
+    color: $texto-1;
+    padding: 5px;
+    position: relative;
+       bottom: 300px;
+    margin-left: 150px;
+    font-weight: bold;
+}

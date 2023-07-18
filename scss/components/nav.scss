@@ -1,0 +1,23 @@
+nav {
+    background-color: $fondo-2;
+    position: sticky;
+      top: 0;
+    z-index: 4;
+}
+.div_nav{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: $borde-inicioyfinal;
+}
+.div_nav_text {
+    color: $texto-2;
+    text-decoration: none;
+    padding: 7px;
+    border:1.5px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo {
+    width: 150px;
+}
+

@@ -1,0 +1,21 @@
+
+footer {
+    background-color: $fondo-2;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer_h3{
+    color: $texto-2;
+    text-decoration: underline;
+}
+
+.footer_p {
+    color: $texto-2;
+    text-decoration: none;
+}
+
+footer div ul {
+    list-style: none;
+}

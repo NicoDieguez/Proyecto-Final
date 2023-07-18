@@ -1,0 +1,81 @@
+.sobre_el_vehiculo_t{
+    text-decoration: underline;
+    margin-left: 15%;
+}
+.sobre_el_vehiculo {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    text-overflow: wrap;
+    
+}
+
+.texto_B_escondido {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-overflow: wrap;
+}
+
+.VyD {
+    color: $texto-1;
+}
+.tabla_VyD {
+    
+    border-collapse: collapse;
+    margin: 30px 50px;
+    margin-bottom: 100px;
+    background-color: $fondo-2;
+    
+}
+.tabla_VyD td {
+    border: 3px solid $fondo-1; 
+    margin: 40px 80px;
+    padding: 10px 20px;
+}
+.tabla_VyD p, h3 {
+    color: $texto-2;
+}
+
+.b_titulo {
+   @extend %titulo_autos_indv;
+}
+
+.bugatti_videos_titulo {
+    @extend %titulo_videos_autos;
+
+
+}
+.bugatti_videos {
+   @extend %videos_autos;
+}
+
+
+.bugatti_videos:hover {
+   transform: scale(1.5);
+   transition: all 1.7s;
+}
+
+.texto_B_escondido{
+   @extend %titulo_autos;
+}
+
+
+@media (max-width: 577px) {
+    .sobre_el_vehiculo{
+        display: none;
+    }
+}
+@media (min-width:577px) {
+    .texto_B_escondido {
+        display: none;
+    }
+}
+
+body {
+    overflow-x: hidden;
+}

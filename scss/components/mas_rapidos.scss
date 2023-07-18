@@ -1,0 +1,40 @@
+ol img {
+    @extend %img_autos_2;
+}
+
+.img_autos{ 
+    @extend %img_autos;
+}
+
+h2 {
+    @extend %titulo_autos;
+}
+
+p {
+    @extend %texto_autos;
+}
+
+.text_autos {
+    @extend %TyP_texto_autos;
+}
+
+main {
+    background-color: $fondo-1;
+    border-bottom: $borde-inicioyfinal;
+}
+
+
+// MV_MB_MR
+
+.ol_MV_MB_MR {
+    color: $texto-1;
+                                                                                         /* ELEGIR TIPO DE FUENTE */
+}
+.titulo_MV_MB_MR {
+    color: $titulo_MV_MB_MR;
+    text-decoration: underline;
+    font-size: 45px;
+    display: flex;
+      justify-content: center;
+      margin-bottom: 70px;
+}

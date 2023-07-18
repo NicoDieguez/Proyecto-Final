@@ -1,0 +1,56 @@
+
+//IMAGENES
+%img_autos {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    position: left;
+      bottom: 300px;
+}
+%img_autos_2 {
+    display: flex;
+    width: 40%;
+    border: 15px outset rgb(97, 3, 134);
+}
+
+//TEXTO
+%titulo_autos {
+    color: $texto-1;
+    font-family: 'Righteous', cursive;
+}
+%texto_autos {
+    color: $texto-1;
+    font-family: 'Righteous', cursive;
+}
+%TyP_texto_autos {
+    display: flex;
+    justify-content: flex-start;   
+    width: 30%;
+    margin-left: 150px;
+}
+
+// AUTOS INDIVIDUALES
+%titulo_autos_indv {
+    color: $color_titulo_A-I;
+    font-size: 400%;
+    display: flex;
+      justify-content: center;
+      margin-bottom: 70px;
+    border: 7px dotted $fondo-2;
+    padding: 20px;
+}
+
+%titulo_videos_autos {
+    font-weight: bold;
+    display: flex;
+      justify-content: center;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+%videos_autos {
+    width: 80%;
+    border: 20px inset navy;
+    margin-left: 23%;
+    margin-bottom: 50px;
+}
